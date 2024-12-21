@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Password Screen -->
+  <div id="passwordScreen" class="screen">
+    <h2>Enter Password</h2>
+    <input type="password" id="passwordInput" placeholder="Enter password..." />
+    <button id="passwordSubmit">Submit</button>
+  </div>
+
+  <!-- Notes Screen -->
+  <div id="notesScreen" class="screen hidden">
+    <button id="lockButton" class="lockButton">Lock</button>
+    <textarea id="notes" placeholder="Type your notes here..." rows="10" cols="50"></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
